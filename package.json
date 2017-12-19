@@ -1,18 +1,29 @@
 {
-  "name": "rest-mongoose-sample",
+  "name": "Patients",
   "version": "1.0.0",
-  "description": "MongoDB with Mongoose on Node.js example",
+  "description": "MongoDB with Mongoose on Node.js",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "engines": {
     "node": ">=4.1.1",
     "npm": ">=2.1.x"
   },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "Patient"
+  ],
   "authors": [
-    "zvbox"
+    "300960367 - Fernando Ito"
   ],
   "license": "MIT",
   "dependencies": {
     "mongoose": ">=4.1.11",
-    "restify": "^4.3.1"
+    "restify": "^4.3.2"
   }
 }

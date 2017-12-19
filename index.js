@@ -1,6 +1,6 @@
-var DEFAULT_PORT = 5000
+var DEFAULT_PORT = 3000
 var DEFAULT_HOST = '127.0.0.1'
-var SERVER_NAME = 'healthrecords'
+var SERVER_NAME = 'mylab04heroku.herokuapp.com'
 
 var http = require ('http');
 var mongoose = require ("mongoose");
@@ -12,7 +12,7 @@ var ipaddress = process.env.IP; // TODO: figure out which IP to use for the hero
 // localhost if we don't find one.
 var uristring =
   process.env.MONGODB_URI ||
-  'mongodb://localhost/e-health-db';
+  'mongodb://300960367:F3rn4nd0@ds129166.mlab.com:29166/map713';
 
 // Makes connection asynchronously.  Mongoose will queue up database
 // operations and release them when the connection is complete.

@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    font-family: Verdana, Arial;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+h2 {
+    color: black;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(238,238,238);
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p.link {
+    border-style: none;
+    border-color: white;
+    border-width: 2px;
+    background-color: rgb(238,238,238);
+    padding-top: 20px;
+    padding-right: 2px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    text-align: center;
+}
+
+p.about {
+    text-align: center;
+}
